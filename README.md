@@ -1,0 +1,357 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sri Harshitha IIT Olympiad School</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f8f9fc;
+    color: #172442;
+}
+
+header {
+    background: #0b1d40;
+    color: white;
+    padding: 18px;
+    text-align: center;
+}
+
+.logo {
+    width: 105px;
+    height: 105px;
+    object-fit: contain;
+    border-radius: 50%;
+    background: white;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    color: #f5c65b;
+    font-size: 25px;
+}
+
+header p {
+    margin-top: 8px;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+nav {
+    background: #142c54;
+    padding: 15px 5px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 7px;
+    font-size: 13px;
+}
+
+.hero {
+    background: linear-gradient(135deg, #0b1d40, #234b80);
+    color: white;
+    text-align: center;
+    padding: 65px 18px;
+}
+
+.hero h2 {
+    color: #f5c65b;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.hero a {
+    display: inline-block;
+    background: #f5c65b;
+    color: #0b1d40;
+    padding: 13px 25px;
+    margin-top: 22px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 45px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #0b1d40;
+    margin-bottom: 20px;
+    font-size: 27px;
+}
+
+section p {
+    line-height: 1.8;
+    max-width: 750px;
+    margin: auto;
+}
+
+.about {
+    background: white;
+}
+
+.school-photo {
+    width: 100%;
+    max-width: 650px;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+.classes {
+    background: #edf2fa;
+}
+
+.class-box {
+    background: white;
+    padding: 20px;
+    margin: 12px auto;
+    max-width: 500px;
+    border-radius: 10px;
+    border-left: 5px solid #d6a437;
+}
+
+.class-box h3 {
+    color: #0b1d40;
+    margin-bottom: 8px;
+}
+
+.achievement {
+    background: white;
+}
+
+.achievement img {
+    width: 100%;
+    max-width: 750px;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+.timing {
+    background: #edf2fa;
+}
+
+.time-box {
+    display: inline-block;
+    background: #0b1d40;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.time-box h3 {
+    color: #f5c65b;
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.contact {
+    background: #0b1d40;
+    color: white;
+}
+
+.contact h2 {
+    color: #f5c65b;
+}
+
+.contact p {
+    margin-bottom: 12px;
+}
+
+.contact a {
+    color: #f5c65b;
+}
+
+footer {
+    background: #07142d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 21px;
+    }
+
+    nav a {
+        font-size: 12px;
+        margin: 4px;
+    }
+
+    .hero h2 {
+        font-size: 27px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="school-logo.jpg"
+    alt="School Logo" class="logo">
+
+    <h1>SRI HARSHITHA</h1>
+    <h2>IIT OLYMPIAD SCHOOL</h2>
+
+    <p>LEARN • COMPETE • ACHIEVE</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#classes">Classes</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero" id="home">
+    <h2>Welcome to Sri Harshitha!</h2>
+
+    <p>
+        Building Bright Futures Through Quality Education.
+        <br>
+        Education from Nursery to Class 10.
+    </p>
+
+    <a href="#about">Explore Our School</a>
+</div>
+
+<section class="about" id="about">
+
+    <h2>About Our School</h2>
+
+    <p>
+        Welcome to Sri Harshitha IIT Olympiad School.
+        We aim to provide a learning environment
+        where students can learn, compete and achieve.
+        Our school offers education from Nursery
+        to Class 10.
+    </p>
+
+    <img src="school-building.jpg"
+    alt="Sri Harshitha School Building"
+    class="school-photo">
+
+</section>
+
+<section class="classes" id="classes">
+
+    <h2>Our Classes</h2>
+
+    <div class="class-box">
+        <h3>Nursery to Primary</h3>
+        <p>Building strong foundations for young learners.</p>
+    </div>
+
+    <div class="class-box">
+        <h3>Upper Primary</h3>
+        <p>Developing knowledge, skills and confidence.</p>
+    </div>
+
+    <div class="class-box">
+        <h3>High School</h3>
+        <p>Preparing students for future academic challenges.</p>
+    </div>
+
+</section>
+
+<section class="achievement" id="achievements">
+
+    <h2>Our Achievements</h2>
+
+    <p>
+        Celebrating our students and their achievements.
+        We are proud of our school community.
+    </p>
+
+    <img src="school-achievement.jpg"
+    alt="School Achievement">
+
+</section>
+
+<section class="timing">
+
+    <h2>School Timings</h2>
+
+    <div class="time-box">
+        <h3>6:00 AM – 8:00 PM</h3>
+        <p>School timings (to be confirmed)</p>
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h2>Contact Us</h2>
+
+    <p>
+        <strong>School Name:</strong><br>
+        Sri Harshitha IIT Olympiad School
+    </p>
+
+    <p>
+        <strong>Principal:</strong><br>
+        Rajender Prasad
+    </p>
+
+    <p>
+        <strong>Address:</strong><br>
+        Back side of Ravi Bakery and Happy Mobile Shop,<br>
+        Beside OM Hospital and Pochampally Bank,<br>
+        Manasa Nagar, MG Road,<br>
+        Suryapet, Telangana - 508213.
+    </p>
+
+    <p>
+        <strong>Phone:</strong><br>
+        <a href="tel:7981578278">
+        7981578278
+        </a>
+    </p>
+
+    <p>
+        <a href="https://wa.me/917981578278">
+        Contact us on WhatsApp
+        </a>
+    </p>
+
+</section>
+
+<footer>
+    <p>
+        © 2026 Sri Harshitha IIT Olympiad School.
+        All Rights Reserved.
+    </p>
+
+    <p>Learn • Compete • Achieve</p>
+</footer>
+
+</body>
+</html>
